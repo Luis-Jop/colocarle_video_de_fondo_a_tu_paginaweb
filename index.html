@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/style.css">
@@ -7,12 +8,22 @@
     <title>reloj en html y css y javascrip</title>
 
 </head>
+
 <body>
-    <div class="clock">
-        <p id="date"></p>
-        <p id="time"></p>
-    </div>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="/video/fondo.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <div class="content">
+            <div class="clock">
+                <p id="time"></p>
+                <p id="date"></p>
+            </div>
+        </div>
+    </div>    
 <script src="/ja.js"></script>
-    
+
 </body>
+
 </html>
